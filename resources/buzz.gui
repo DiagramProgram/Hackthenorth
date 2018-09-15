@@ -1,4 +1,4 @@
-<svg class="background">
+<svg class="background"> //When something is nearby
   <text id="time" />
   <text id="steps"> 1000 Steps </text>
   <text id="rarityPoints"> 12.5 RP </text>
