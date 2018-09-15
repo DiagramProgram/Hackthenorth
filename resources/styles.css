@@ -1,0 +1,33 @@
+.background {
+  viewport-fill: navy;
+}
+
+#time {
+  font-size: 50;
+  font-family: Times;
+  text-length: 24;
+  text-anchor: start;
+  x: 5%;
+  y: 25%;
+  fill: white;
+}
+
+#steps {
+  font-size: 25;
+  font-family: Times;
+  text-length: 24;
+  text-anchor: center;
+  x: 60%;
+  y: 50%;
+  fill: white;
+}
+
+#rarityPoints {
+  font-size: 25;
+  font-family: Times;
+  text-length: 24;
+  text-anchor: center;
+  x: 65%;
+  y: 80%;
+  fill: white;
+}

@@ -1,0 +1,6 @@
+<svg class="background">
+  <text id="date" />
+  <text id="time" />
+  <text id="steps"> 1000 Steps </text>
+  <text id="rarityPoints"> 12.5 RP </text>
+</svg>
