@@ -1,4 +1,5 @@
 <svg class="background"> //"home screen" - first thing to open when watch is turned on
+  <image href="bg.jpg" />
   <text id="date" />
   <text id="time" />
   <text id="steps"> 1000 Steps </text>
