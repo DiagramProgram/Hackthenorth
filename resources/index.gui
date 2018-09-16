@@ -1,11 +1,127 @@
-<svg class="background"> //"home screen" - first thing to open when watch is turned on
-<<<<<<< HEAD
-  <image href="bgg.png">
-=======
-  <image href="bgg.jpg" />
->>>>>>> 6d599f731b243d355b9b105d992a5a78c82a7225
-  <text id="date" />
-  <text id="time" />
-  <text id="steps"> 1000 Steps </text>
-  <text id="rarityPoints"> 12.5 RP </text>
+<svg id = "main">
+  
+  <svg id="screen1" pointer-events="visible">
+    
+    <image href = "dsp/bg.png" id = "bg" />
+
+    <text id="dateDsp" x="22%" y="40%"
+        fill="white" font-size="30" font-family="System-Regular"
+        text-anchor="middle" text-length="20">---, --</text>
+    
+    <text id="clockDsp" x="31%" y="65%"
+        fill="white" font-size="70" font-family="System-Regular"
+        text-anchor="middle" text-length="20">00:00</text>
+
+    <text id="stepDsp" x="80%" y="30%" fill="white" font-size="20" font-family="System-Regular"
+        text-anchor="middle" text-length="20">-- steps</text>
+
+    <text x="80%" y="20%" font-size="32" font-family="System-Regular"
+        text-anchor="middle" text-length="20">⚡</text>
+
+    <text id="heartRateDsp" x="80%" y="60%" fill="white" font-size="20" font-family="System-Regular"
+        text-anchor="middle" text-length="20">-- Bpm</text>
+
+    <text id ="heart" x="80%" y="50%" font-size="32" font-family="System-Regular"
+        text-anchor="middle" text-length="20">❤</text>
+
+    <text id="xpDsp" x="80%" y="90%" fill="white" font-size="20" font-family="System-Regular"
+        text-anchor="middle" text-length="20">56 Xp</text>
+
+    <text x="80%" y="80%" font-size="32" font-family="System-Regular"
+        text-anchor="middle" text-length="20">&#10024;</text>
+    
+  </svg>
+  
+  <svg id="screen2" display="none" pointer-events="visible">
+    <image href = "dsp/bg.png" />
+
+    <image x="-50" y="30" width="300" height="300" href="creatures/C1.png" />
+
+    <text id="rarityPoints" x="50%" y="10%"
+         fill="yellow" font-size="30" font-family="System-Regular"
+         text-anchor="middle" text-length="20">xxxx</text>
+
+    <text id="numCaught" x="75%" y="71%"
+         fill="white" font-size="18" font-family="System-Regular"
+         text-anchor="middle" text-length="20">xxxx</text>
+
+    <text id="numSpecies" x="75%" y="80%"
+         fill="white" font-size="20" font-family="System-Regular"
+         text-anchor="middle" text-length="20">xxxx</text>
+
+    <text id="newestF" x="20%" y="30%"
+         fill="pink" font-size="22" font-family="System-Regular"
+         text-anchor="middle" text-length="20">Latest Friend:</text>
+  </svg>
+  
+  <svg id="screen3" display="none" pointer-events="visible">
+    
+    <rect width="100%" height ="100%" fill="black" />
+    <text x="50%" y="12%"
+            fill="white" font-size="20" font-family="Colfax-Black"
+            text-anchor="middle">A creature's nearby!</text>
+    <circle cx="50%" cy="55%" r="35%" fill = "goldenrod"/>
+    <text x="50%" y="82%"
+            fill="black" font-size="200" font-family="System-Regular"
+            text-anchor="middle">?</text>
+    
+  </svg>
+  
+  
+  <svg id="screen4" display="none" pointer-events="visible">
+    <image width="80%" height="80%" x="8%" y="1%"  href="dsp/light.png" />
+    <image x="74" y="40" width="200" height="200" href="creatures/C1.png" />
+
+    <text id="winDsp" x="50%" y="88%"
+        fill="white" font-size="31" font-family="System-Regular"
+        text-anchor="middle" text-length="20">CONGRATULATIONS!</text>
+    <text id="winDsp" x="50%" y="98%"
+        fill="white" font-size="25" font-family="System-Regular"
+        text-anchor="middle" text-length="50">You made a new friend.</text>
+
+  </svg>
+  
+  
+  <svg id = "screen5" display="none" pointer-events="visible">
+    <image href = "bgg.png" />
+
+    <image width="50%" height="60%" x="-10" y="95" href="creatures/C1.png" />
+
+    <text id="speciesFact" x="60%" y="90%"
+        fill="yellow" font-size="16" font-family="System-Regular"
+        text-anchor="middle" text-length="20">xxxx</text>
+
+    <text id="speciesName" x="50%" y="13%"
+        fill="white" font-size="32" font-family="System-Regular"
+        text-anchor="middle" text-length="20">xxxx</text>
+
+    <text id="speciesPoints" x="70%" y="60%"
+        fill="white" font-size="20" font-family="System-Regular"
+        text-anchor="middle" text-length="20">xxxx</text>
+
+    <text id="speciesWeight" x="70%" y="50%"
+        fill="white" font-size="20" font-family="System-Regular"
+        text-anchor="middle" text-length="20">xxxx</text>
+     <text id="speciesNumber" x="50%" y="23%"
+        fill="white" font-size="20" font-family="System-Regular"
+        text-anchor="middle" text-length="20">xxxx</text>
+  </svg>
+  
+  <svg id = "screen6" display="none" pointer-events="visible">
+    
+    <rect width="100%" height ="100%" fill="white" />
+    
+    <image x="27%" y="15%" width="145" height="125" href="creatures/C1.png" />
+    <image x="23%" y="41%" width="175" height="133" href="creatures/jellyfishBlackout.png" />
+    <image x="60%" y="18%" width="187" height="143" href="creatures/C3.png" />
+    <image x="-4%" y="10%" width="145" height="135" href="creatures/C2.png" />
+    
+    <text id="gallery" x="50%" y="15%"
+      fill="black" font-size="40" font-family="System-Bold"
+      text-anchor="middle" text-length="20">Collections</text>
+    
+  </svg>
+
+
+  
 </svg>
